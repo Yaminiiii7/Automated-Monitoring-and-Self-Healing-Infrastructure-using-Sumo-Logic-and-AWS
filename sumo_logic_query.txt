@@ -1,0 +1,6 @@
+*
+| json "uri", "response_time_ms" as uri, rt nodrop
+| where uri = "/api/data" and rt > 3000
+| timeslice 10m
+| count as slow_requests by _timeslice
+| where slow_requests > 5
