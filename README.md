@@ -170,18 +170,27 @@ Screen and audio recordings demonstrating implementation, deployment, and testin
 
 
 **AWS Lambda function - Implementation/Testing/Deployment**
+
+```
 https://calstatela.zoom.us/rec/share/9gvqIQKrrjJNhf6YyfFJqPF59PSE_mypFco8UUmKTE5MNh_0_EYWHnUDXUeQ6EyC.Ys6W8P3BsjdI1Zzq 
 Passcode: DeT749.x
+```
 
 
 **SumoLogic SearchQuery and Alert**
+
+```
 https://calstatela.zoom.us/rec/share/NFedGwtX85e4BXdAJYoGtzS1oRXzg7B64NM9tE2ZDUIuP5hc5nV8tFZK4QO6M107.o1pIJDZX3F8R5exH 
 Passcode: v8=0&&f+
+```
 
 
 **Terraform- Infrastruction implementation and testing as a whole**
+
+```
 https://calstatela.zoom.us/rec/share/eCrsx0Ev5g-Kd9neHyGuivxznQECR7zc80eAbQ28r4wDI3NzoKE3dB5PmwP-DaVG.gzHlX1ZJcFgV_cSY 
 Passcode: ?6+sVbCz
+```
 
 ---
 
