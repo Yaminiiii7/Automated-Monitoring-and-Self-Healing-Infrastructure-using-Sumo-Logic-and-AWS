@@ -21,6 +21,8 @@ When the `/api/data` endpoint exceeds acceptable response time thresholds, an au
 
 ## 🏗 Architecture Flow
 
+  <img src='images/Architecture.PNG'>
+
 1. Application logs are ingested into **Sumo Logic**
 2. A Sumo Logic query identifies slow `/api/data` requests
 3. An alert triggers when thresholds are exceeded
@@ -105,6 +107,8 @@ terraform apply
    - **AWS Access Key**
    - **AWS Secret Access Key**
 
+   <img src='images/connection.PNG'>
+
 4. Retrieve the secret access key by running:
 
 ```bash
@@ -126,6 +130,7 @@ terraform output sumoLogicAccessKeySecret
 ```
 sumo_logic_query.txt
 ```
+  <img src='images/logsearch.PNG'>
 
 ---
 
@@ -136,6 +141,8 @@ sumo_logic_query.txt
    - **Connection Type**: Webhook
    - **Webhook Connection**: Select the connection created earlier
 6. Save the alert
+
+  <img src='images/alert.PNG'>
 
 ---
 
