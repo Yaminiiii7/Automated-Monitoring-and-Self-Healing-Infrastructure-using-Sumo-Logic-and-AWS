@@ -1,6 +1,6 @@
-# Platform Engineer Coding Test – Monitoring & Auto-Remediation
+Monitoring & Auto-Remediation
 
-This repository contains my solution for the Platform Engineer Coding Test.
+
 The objective is to detect performance issues in a web application, automatically remediate them, and notify stakeholders using AWS and Sumo Logic.
 
 ---
